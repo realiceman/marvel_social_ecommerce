@@ -1,0 +1,70 @@
+
+
+html { height: 100%; width: 100%; }
+body { height: 100%; width: 100%; margin: 0; padding: 0; border: 0; 
+       font:13px/15px Verdana, Arial,Helvetica,sans-serif;background-color:black;}
+
+table,tr,td,tr {border-collapse: collapse; vertical-align: top; text-align: left;
+              font:13px/15px Verdana, Arial,Helvetica,sans-serif;}
+
+a { color: #8D0D19;}
+
+#header {width:100%; height: 100px; text-align: left; background:#e8e6e6; color: white; }
+#header h1 { margin-left:40px; margin-top:30px; font:60px Devil Breeze;font-weight:bolder; color:#790d19;}
+span{float:left;}
+#menu{  margin-top:46px;float:left; position:absolute;}
+#header a {display:inline;padding: 1.5em;}
+
+#main {min-height: 600px; width: 100% ; padding: 2em;}
+
+#white {width:100%; background-color:#e8e6e6; height:2.8em;}
+#footer {width:100%; height: 1.2em; padding: 0.5em; background:black;font-weight:bold;font-family:gratis; color: white;}
+#footer a{text-decoration:none;padding-right:50px; }
+
+#admin{color:#790d19;}
+
+
+/*ADMIN START*/
+#admin_header { height: 100px; text-align: left; background:black; color: white;}
+#admin_header h2 {padding: 1,3em;margin-left:40px; margin-top:55px; font:60px ;font-weight:bold;}
+
+#admin_main {min-height: 500px; width: 100% ; padding: 2em; background-color:white;}
+
+#admin_footer { height:100px;  text-align: center; background-color:black;font-weight:bold;font-family:gratis; color: white;}
+
+table.bordered tr th, table.bordered tr td { border: 1px solid #000000;}
+/*ADMIN END*/
+
+
+/*slider*/
+#slider ul, #slider li { list-style:none; height:600px; margin-top:0px;margin-bottom:0px;}
+/*fin slider */
+
+
+/*pagination*/
+#pagination{font-family:gratis; font-weight:bold; color:white; text-align:center; font:white;}
+
+/*fin pagination*/
+
+
+/* contact style */
+#content p, label, legend { font: 1.5em "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif; }
+
+#content h1 { margin: 10px 0 10px; font-size: 24px; color: #333333; font-style:oblique; }
+#content hr { color: inherit; height: 0; margin: 6px 0 6px 0; padding: 0; border: 1px solid #d9d9d9; border-style: none none solid; }
+
+#content { display: block; width: 650px; margin: 70px auto; padding: 35px; border: 1px solid #cbcbcb; background-color: #FFF; -moz-border-radius: 5px; -webkit-border-radius:5px; }
+#content label { display: inline-block; float: left; height: 26px; line-height: 26px; width: 155px; font-size: 1.5em; }
+#content input, textarea, select { display:block; margin:10px; width: 280px; margin: 0; padding: 5px; color: #666; background: #f5f5f5; border: 1px solid #ccc; margin: 5px 0; font:1.5em "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif; -moz-border-radius: 5px; -webkit-border-radius:5px; }   
+#content input.submit { display:block; margin-top:20px; width: 85px; cursor: pointer; border: 1px solid #222; background:black; color:#fff; -moz-border-radius: 5px; -webkit-border-radius:5px; }
+#content input.submit:hover { background:#444; }
+#content textarea{width: 350px; height: 100px;}
+#content a{color:#4E7C6A;}
+#content a:hover{text-decoration:none; color:#444;}
+.message{width:50%; height:20px; line-height:20px; color:black; font-size:1.3em;}
+
+/*fin contact*/
+
+
+
+

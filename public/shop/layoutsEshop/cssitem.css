@@ -1,0 +1,50 @@
+body {background-image:url('logo/marveldc.jpg');no-repeat center center fixed;
+    webkit-background-size: cover;
+    moz-background-size: cover;
+    o-background-size: cover;
+    background-size: cover;
+    margin:auto;
+    width:930px;
+    margin-top:150px;
+    }
+
+.itemheader
+{
+    background:url(logo/emptyheader.png);
+    width:930px;
+    height:40px;
+    text-align:center;
+}
+
+.itemheader p
+{
+    padding-top:10px;
+    font:16px Arial;
+    color:#fff;
+    text-shadow:0px 1px 1px #000;
+}
+
+
+.page
+{
+    background:#fff;
+    border-radius:0 0 10px 10px;
+    font:16px Arial;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.describe
+{
+    float:right;
+    margin-top:30px;
+    margin-right:30px;
+    width:550px;
+    text-align:justify;
+    font:16px Arial;
+}
+
+.describe a
+{
+    color:#000;
+}
